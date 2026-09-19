@@ -14,9 +14,9 @@ jobs:
       with:
         dotnet-version: 8.0.x
     - name: Build EXE
-      run: dotnet build IFASBrowser.csproj -c Release
+      run: dotnet build IFASBrowser.csproj -c Release --nologo
     - name: Upload Executable
       uses: actions/upload-artifact@v4
       with:
         name: IFASBrowser-EXE
-        path: bin/Release/
+        path: bin/Release/net8.0-windows/

@@ -1,10 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net8.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
-    <AssemblyName>IFASBrowser</AssemblyName>
-    <ApplicationIcon>logo.ico</ApplicationIcon>
-    <OutputType>WinExe</OutputType>
   </PropertyGroup>
 </Project>
